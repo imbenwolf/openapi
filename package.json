@@ -29,7 +29,6 @@
     "babel": "babel dist -d dist",
     "build": "tsc && npm run babel && npm run document",
     "watch": "tsc --watch",
-    "prepack": "npm run build",
     "travis": "npm test && npm run build",
     "document": "typedoc --out docs src"
   },
